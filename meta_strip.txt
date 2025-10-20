@@ -1,0 +1,6 @@
+backend_used: cryptography
+qber: 0.000000
+remaining_sifted_bits: 2695
+nonce_hex: faef5b9c6e932245b7cb964b
+tag_hex: 8d33fbe07d02130674f71e7330c636eb
+enc_file: random_ddos_prediction.txt.enc
