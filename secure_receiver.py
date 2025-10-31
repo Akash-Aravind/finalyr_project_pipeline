@@ -6,7 +6,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 # ----- CONFIG -----
 HOST = "0.0.0.0"
-PORT = 7000
+PORT = 7001
 SENDER_PUB_KEY_FILE = "sender_ed25519_pub.pem"
 
 # Put your actual 32-byte AES key here (from original meta key_hex) using bytes.fromhex(...)

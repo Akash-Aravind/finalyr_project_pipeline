@@ -4,8 +4,8 @@ from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
 from cryptography.hazmat.primitives import serialization
 
 # ----- CONFIG -----
-SERVER_HOST = "127.0.0.1"   # receiver address (change if receiver is on another machine)
-SERVER_PORT = 7000
+SERVER_HOST = "10.212.78.107"   # receiver address (change if receiver is on another machine)
+SERVER_PORT = 7001
 SENDER_PRIV_KEY_FILE = "sender_ed25519_priv.pem"
 CAR_ID = "CAR_0123"
 ENC_FILE = "random_ddos_prediction.txt.enc"

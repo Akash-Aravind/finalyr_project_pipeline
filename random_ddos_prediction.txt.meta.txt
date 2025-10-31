@@ -1,7 +1,7 @@
 backend_used: cryptography
-key_hex: f4d1e145e81e0ddce3892e1bdc06622b33694c18d392a5722669268386c6fc54
+key_hex: cadfe81c63046a6d38394f56e522800c3abc0520f868da9e2b7c5e64e59ba73f
 qber: 0.000000
-remaining_sifted_bits: 2695
-nonce_hex: faef5b9c6e932245b7cb964b
-tag_hex: 8d33fbe07d02130674f71e7330c636eb
+remaining_sifted_bits: 2637
+nonce_hex: e2a2166f1e79db9b1c2a8b60
+tag_hex: 9b73d1c2c9f5363e3d96099339c4d6dc
 enc_file: random_ddos_prediction.txt.enc
