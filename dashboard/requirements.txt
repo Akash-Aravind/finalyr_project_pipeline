@@ -1,8 +1,0 @@
-fastapi
-tensorflow
-keras
-numpy
-pandas
-cryptography
-passlib
-PyJWT
