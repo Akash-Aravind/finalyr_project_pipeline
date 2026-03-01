@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#system-overview">System Overview</a></li>
+                <li><a href="#live-alerts">Live Alerts Feed</a></li>
+                <li><a href="#analytics">Analytics</a></li>
+                <li><a href="#csv-export">CSV Export</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Login Page</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="system-overview">
+            <h2>System Overview</h2>
+            <p>Overview of system status and metrics.</p>
+        </section>
+        <section id="live-alerts">
+            <h2>Live Alerts Feed</h2>
+            <div class="alerts-feed">
+                <!-- Alerts will be dynamically added here -->
+            </div>
+        </section>
+        <section id="analytics">
+            <h2>Analytics</h2>
+            <p>Visual representation of data.</p>
+        </section>
+        <section id="csv-export">
+            <h2>CSV Export</h2>
+            <button id="export-btn">Export Data as CSV</button>
+        </section>
+    </main>
+    <footer>
+        <p>Dashboard © 2026</p>
+    </footer>
+</body>
+</html>
